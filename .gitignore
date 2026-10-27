@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+dist/
+npm-debug.log
+build/
+.idea
+coverage/
+# Ignore built example files
+examples/*.html
+examples/*.js
+examples/*.hot-update.json
+!examples/generate.js
+!examples/vars.js
+.vscode
+*.tgz
+yarn-error.log
+.yarn/
+.reports/
+.ccells-state.json
+
+# Serena MCP server cache
+.serena/
+
+test-results/
+test/e2e/harness-dist/
+
+# graphify knowledge graph (generated)
+graphify-out/
+
+package-lock.json
